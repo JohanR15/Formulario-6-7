@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url('https://images4.alphacoders.com/703/703618.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    height: 90vh;
+}
+
+nav {
+    background-color: #04293A;
+    width: 100%;
+    color: #7F8487;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a:hover {
+    background-color: #041C32;
+}
+
+main {
+    text-align: center;
+}
+
+.img {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(6, 70, 99, 0.5);
+    color: white;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea {
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(6, 70, 99, 0.5);
+    color: white;
+}
+
+button[type="submit"] {
+    background: #395B64;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+input:focus {
+    outline: none;
+    background-color: #041C32;
+}
+
+/* Estilo de form.html */
+
+.button {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #395B64;
+    color: #F8F1F1;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+    padding: 150px;
+    text-align: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
